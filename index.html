@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms pt1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form>
+        <label for="username">username</label><br>
+        <input type="text" minlength="6" maxlength="15" required><br>
+        <label for="password">password</label><br>
+        <input type="text" minlength="6" maxlength="15" required><br>
+
+        <label for="gender">male</label>
+        <input type="checkbox" id="gender" name="gender1" value="male"><br>
+        <label for="gender">female</label>
+        <input type="checkbox" id="gender" name="gender2" value="female"><br>
+        <label for="gender">non-binary</label>
+        <input type="checkbox" id="gender" name="gender3" value="non-binary"><br>
+        <label for="gender">gender non-conformning</label>
+        <input type="checkbox" id="gender" name="gender4" value="gender non-conforming"><br>
+        <label for="gender">other</label>
+        <input type="checkbox" id="gender" name="gender5" value="other"><br>
+
+        <input type="radio" id="html" name="age" value="age">
+        <label for="under 18">under 18</label><br>
+        <input type="radio" id="html" name="age" value="age">
+        <label for="over 18">18 or older</label><br>
+
+        <label for="prefered food">prefered food</label>
+        <select id="prefered food">
+            <option value="select...">select...</option>
+            <option value="hot dogs">hot dogs</option>
+            <option value="pizza">pizza</option>
+            <option value="burgers">burgers</option>
+        </select><br>
+
+        <input type="reset"><br>
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
